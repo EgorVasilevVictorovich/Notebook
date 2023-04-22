@@ -29,7 +29,7 @@
         android:ems="10"
         android:gravity="top"
         android:hint="Введите описание"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
