@@ -14,7 +14,7 @@
         android:background="@drawable/shape"
         android:ems="10"
         android:hint="Введите название заметки"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
