@@ -64,7 +64,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                database.deleteAllNotes();// удаление записи БД
-                DatabaseHelper database = new DatabaseHelper(SecondActivity.this);// создание  БД в текущей активности
+              
                   // создание намерения переключения активности
                 Intent intent = new Intent(SecondActivity.this, SecondActivity.class); // переключение на новую активность
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
